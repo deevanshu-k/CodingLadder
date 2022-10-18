@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* p{
+    justify-content: center;
+    align-items: center;
+    margin: 0 333px;
+} */
+u{
+    background-color: aliceblue;
+    color: black;
+    margin: 40px 80vh;
+    font-size: 23px;
+    /* text-align: justify; */
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 9px;
+    margin: 20px 530px;
+  }
+  /* th, td {
+    padding: 5px;
+    text-align: center;
+  }
+   */
+   /* p{
+    margin: 33px 666px;
+   } */
