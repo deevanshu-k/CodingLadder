@@ -7,10 +7,18 @@
     align-items: center;
     margin: 0 333px;
 } */
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  width: 350px;
+}
 u{
     background-color: aliceblue;
     color: black;
-    margin: 40px 80vh;
+    /* margin: 40px 80vh; */
     font-size: 23px;
     /* text-align: justify; */
   }
@@ -19,7 +27,7 @@ u{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 9px;
-    margin: 20px 530px;
+    /* margin: 20px 530px; */
   }
   /* th, td {
     padding: 5px;
