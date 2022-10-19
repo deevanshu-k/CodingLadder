@@ -1,39 +1,35 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-/* p{
-    justify-content: center;
-    align-items: center;
-    margin: 0 333px;
-} */
-.center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-table {
-  width: 400px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 u{
-    background-color: aliceblue;
-    color: black;
-    /* margin: 40px 80vh; */
+    margin: 40px 85vh;
     font-size: 23px;
-    /* text-align: justify; */
+    background-color: black;
+    color: red;
+  }
+  p{
+    margin: 40px 83vh;
+    font-size: 23px;
+    background-color: black;
+    color: red;
   }
 
   table, th, td {
-    border: 1px solid black;
+    border: 1px solid red;
     border-collapse: collapse;
     padding: 9px;
-    /* margin: 20px 530px; */
+    margin: 20px 530px;
+    background-color: black;
+    color: red;
   }
-  /* th, td {
-    padding: 5px;
-    text-align: center;
+   div{
+    font-family: 'Creepster', cursive;
+    font-size: 19px;
+   }
+   div a{
+    text-decoration: none;
+    color: red;
+   }
+  body{
+    background-color: black;
   }
-   */
-   /* p{
-    margin: 33px 666px;
-   } */
+         
