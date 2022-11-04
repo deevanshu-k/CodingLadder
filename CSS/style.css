@@ -1,35 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
-u{
-    margin: 40px 85vh;
-    font-size: 23px;
-    background-color: black;
-    color: red;
-  }
   p{
-    margin: 40px 83vh;
-    font-size: 23px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 85vh;
     background-color: black;
     color: red;
-  }
+  }  
 
   table, th, td {
+    display: -ms-inline-grid;
     border: 1px solid red;
     border-collapse: collapse;
-    padding: 9px;
-    margin: 20px 530px;
+     padding: 10px;
+     margin: 20px 530px; 
     background-color: black;
     color: red;
+    text-align: center;
   }
-   div{
-    font-family: 'Creepster', cursive;
-    font-size: 19px;
-   }
    div a{
     text-decoration: none;
     color: red;
    }
   body{
+    font-family: 'Creepster', cursive;
+    font-size: 23px;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-         
+
+  #homePage h4 {
+    color: red;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 15px;
+  }
+
+  @media screen and (max-width: 900px) {
+     table{
+      width: 300px;
+      font-size: 19px;
+    }
+    
+    #homePage h4 {
+      font-size: 19px;
+    }
+
+  }
+   
